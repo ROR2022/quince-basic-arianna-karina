@@ -80,7 +80,7 @@ export function BasicEventDetails() {
             <Button
               variant="outline"
               className="mt-4 border-primary text-primary hover:bg-primary hover:text-white"
-              onClick={() => openInMaps(basicDemoData.event.ceremony.address)}
+              onClick={() => window.open(basicDemoData.event.ceremony.ubiLink, "_blank")}
             >
               IR A MAPS
             </Button>
@@ -97,7 +97,7 @@ export function BasicEventDetails() {
             <Button
               variant="outline"
               className="mt-4 border-primary text-primary hover:bg-primary hover:text-white"
-              onClick={() => openInMaps(basicDemoData.event.party.address)}
+              onClick={() => window.open(basicDemoData.event.party.ubiLink, "_blank")}
             >
               IR A MAPS
             </Button>

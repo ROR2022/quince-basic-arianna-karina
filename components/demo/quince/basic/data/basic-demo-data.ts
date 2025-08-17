@@ -22,23 +22,25 @@ export const basicDemoData = {
       date: "18 de Octubre 2025"
     },
     ceremony: {
-      time: "12:00 hrs.",
-      venue: "Parroquia San José Obrero",
-      address: "Av. Revolución 123, Centro, 64000 Monterrey, N.L.",
-      type: "Misa de Acción de Gracias"
+      time: "17:00 hrs.",
+      venue: "Parroquia San José",
+      address: "Calle 3 Pte. 2, Área de los Pozos, 75010 San José Chiapa, Pue.",
+      type: "Misa de Acción de Gracias",
+      ubiLink: "https://maps.app.goo.gl/QxDwarXgZj6iQ3Ab8"
     },
     party: {
-      time: "17:00 hrs.",
-      venue: "Salón Los Encinos",
-      address: "Carr. Nacional 456, Valle Alto, 64989 Monterrey, N.L.",
-      type: "Recepción"
+      time: "18:30 hrs.",
+      venue: "Salón Social Finca de San José",
+      address: "Calle 8 Pte. 106, Barrio de Sta Cruz, 75010 De Santa Cruz, Pue.",
+      type: "Recepción",
+      ubiLink: "https://maps.app.goo.gl/N6SUnMkGWecBS84j8"
     },
     dressCode: "Formal",
     restrictions: "No Niños"
   },
 
   countdown: {
-    targetDate: "October 18, 2025 12:00:00",
+    targetDate: "October 18, 2025 17:00:00",
     backgroundImage: "/images/countdown-bg.jpg"
   },
 
