@@ -24,19 +24,19 @@ export const basicDemoData = {
     ceremony: {
       time: "17:00 hrs.",
       venue: "Parroquia San José",
-      address: "Calle 3 Pte. 2, Área de los Pozos, 75010 San José Chiapa, Pue.",
+      address: "San José Chiapa, Puebla",
       type: "Misa de Acción de Gracias",
       ubiLink: "https://maps.app.goo.gl/QxDwarXgZj6iQ3Ab8"
     },
     party: {
       time: "18:30 hrs.",
       venue: "Salón Social Finca de San José",
-      address: "Calle 8 Pte. 106, Barrio de Sta Cruz, 75010 De Santa Cruz, Pue.",
+      address: "San José Chiapa, Puebla",
       type: "Recepción",
       ubiLink: "https://maps.app.goo.gl/N6SUnMkGWecBS84j8"
     },
     dressCode: "Formal",
-    restrictions: "No Niños"
+    restrictions: ""
   },
 
   countdown: {
@@ -46,8 +46,8 @@ export const basicDemoData = {
 
   attendance: {
     title: "CONFIRMACIÓN DE ASISTENCIA",
-    message: "Respetuosamente <No Niños>",
-    subtitle: "Espero que no sea impedimento para que ustedes puedan asistir a mi fiesta.",
+    message: "Favor de confirmar su asistencia dos días antes del evento.",
+    subtitle: "",
     fields: {
       name: "Nombre completo",
       response: "¿Podrás acompañarme?",
