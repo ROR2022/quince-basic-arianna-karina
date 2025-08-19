@@ -12,7 +12,7 @@ export function PremiumInvitation() {
   return (
     <section 
     style={{
-        backgroundImage: `url('/images/quince/encantada3.png')`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/quince/encantada3.png')`,
         filter: "brightness(0.9)",
         backgroundSize: "contain",
         backgroundPosition: "center",

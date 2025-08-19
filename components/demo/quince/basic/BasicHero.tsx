@@ -17,8 +17,10 @@ export function BasicHero() {
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: `url('${basicDemoData.hero.backgroundImage}')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${basicDemoData.hero.backgroundImage}')`,
           filter: "brightness(0.7)",
+          //backgroundColor: "rgba(0, 0, 0, 0.5)", // capa negra semi-transparente
+          
         }}
       />
 

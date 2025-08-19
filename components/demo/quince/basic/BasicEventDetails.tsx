@@ -24,7 +24,7 @@ export function BasicEventDetails() {
   return (
     <section
       style={{
-        backgroundImage: `url('/images/quince/encantada2.png')`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/quince/encantada2.png')`,
         filter: "brightness(0.7)",
         backgroundSize: "contain",
         backgroundPosition: "center",

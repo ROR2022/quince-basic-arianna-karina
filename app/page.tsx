@@ -14,7 +14,7 @@ export default function LandingPage() {
       <BasicCountdown />
       <PremiumInvitation />
       <BasicEventDetails />
-      <PremiumGallery />
+      {/* <PremiumGallery /> */}
       <BasicAttendance />
       <BasicGiftOptions />
       <BasicCTA />
