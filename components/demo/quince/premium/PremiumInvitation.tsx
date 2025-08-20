@@ -27,23 +27,25 @@ export function PremiumInvitation() {
       >
         {/* Badge premium */}
         <div className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-8 shadow-lg">
-          ✨ Invitación
+          <span className="font-cursive">✨ Invitación</span>
         </div>
 
-        <h2 className="text-2xl md:text-3xl mb-8 leading-relaxed text-gray-800">
+        <h2 className="font-elegant text-2xl md:text-3xl mb-8 leading-relaxed text-gray-800">
           {premiumDemoData.invitation.message}
           <br />
-          <span className="text-3xl md:text-4xl font-medium text-purple-600">
+          <span className="font-cursive text-3xl md:text-4xl font-medium text-purple-600">
             {premiumDemoData.invitation.subtitle}
           </span>
           <br />
-          {premiumDemoData.invitation.blessing}
+          <span className="font-script text-xl md:text-2xl text-gray-700">
+            {premiumDemoData.invitation.blessing}
+          </span>
         </h2>
 
         {/* Información de padres - Premium */}
         <div className="my-12 bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
           <div className="space-y-4">
-            <p className="text-primary text-2xl font-medium">
+            <p className="font-elegant text-primary text-2xl font-medium">
               {premiumDemoData.invitation.parents.father}
             </p>
             <div className="flex items-center justify-center">
@@ -51,7 +53,7 @@ export function PremiumInvitation() {
               <p className="mx-4 text-gray-600 font-light text-lg">&</p>
               <div className="w-8 h-px bg-gradient-to-r from-purple-400 to-pink-400"></div>
             </div>
-            <p className="text-primary text-2xl font-medium">
+            <p className="font-elegant text-primary text-2xl font-medium">
               {premiumDemoData.invitation.parents.mother}
             </p>
           </div>
@@ -60,7 +62,7 @@ export function PremiumInvitation() {
  {/* Información de padrinos */}
         <div className="my-12 bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
           <div className="space-y-4">
-            <p className="text-black text-2xl font-medium">
+            <p className="font-cursive text-black text-2xl font-medium">
               Mi Madrina:
             </p>
             <div className="flex items-center justify-center">
@@ -68,7 +70,7 @@ export function PremiumInvitation() {
               <p className="mx-4 text-gray-600 font-light text-lg">&</p>
               <div className="w-8 h-px bg-gradient-to-r from-purple-400 to-pink-400"></div>
             </div>
-            <p className="text-primary text-2xl font-medium">
+            <p className="font-elegant text-primary text-2xl font-medium">
               {basicDemoData.event.godparents.godmother}
             </p>
           </div>
@@ -77,7 +79,7 @@ export function PremiumInvitation() {
 
         {/* Mensaje decorativo premium */}
         <div className="mt-8 p-6 bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl border border-purple-200">
-          <p className="text-lg text-purple-800 italic">
+          <p className="font-script text-lg text-purple-800 italic">
             {premiumDemoData.invitation.decorativeMessage}
           </p>
         </div>

@@ -65,18 +65,6 @@ export const basicDemoData = {
     message: "Mi mejor regalo es compartir contigo este gran día, si deseas obsequiarme algo, puedo sugerir las siguientes opciones:",
     options: [
       {
-        icon: "💳",
-        title: "Transferencia Bancaria",
-        description: "BBVA Bancomer",
-        details: "Cuenta: 1234567890\nCLABE: 012345678901234567\nA nombre de: Patricia Hernández López"
-      },
-      {
-        icon: "🎁",
-        title: "Mesa de Regalos",
-        description: "Liverpool",
-        details: "Evento: XV años Isabella\nCódigo: 51234567"
-      },
-      {
         icon: "💰",
         title: "Sobre con efectivo",
         description: "El día del evento",
