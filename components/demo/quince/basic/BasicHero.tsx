@@ -49,8 +49,19 @@ export function BasicHero() {
           >
             {basicDemoData.hero.name}
           </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
+            className="text-white text-lg mb-2 font-cursive"
+          >
+            Mis quince años marcan el comienzo de una nueva etapa en mi vida...
+                Una etapa maravillosa dónde el amor y la alegría están conmigo...
+          </motion.p>
         </motion.div>
       )}
+
+      
 
       <motion.div
         initial={{ opacity: 0 }}

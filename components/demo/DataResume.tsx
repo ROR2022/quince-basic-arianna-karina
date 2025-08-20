@@ -10,7 +10,7 @@ const DataResume = () => {
   return (
     <div
     style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/quince/encantada3.png')`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/quince/fondo1.png')`,
         filter: "brightness(0.9)",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -20,7 +20,7 @@ const DataResume = () => {
     >
         <div 
         style={{minHeight: "100vh"}}
-        className='font-elegant bg-slate-300 bg-opacity-50 p-6 rounded-lg flex flex-col justify-center items-center text-center max-w-3xl mx-auto'>
+        className='font-elegant bg-slate-300 bg-opacity-20 p-6 rounded-lg flex flex-col justify-center items-center text-center max-w-3xl mx-auto'>
           <h2 
         className=" font-script text-xl md:text-2xl mb-4 leading-relaxed text-white">
           ¡Mis XV Años!
@@ -29,6 +29,10 @@ const DataResume = () => {
             {basicDemoData.event.celebrant}
           </h2>
         <div className="space-y-4">
+            <p className='font-script text-xl md:text-2xl text-white'>
+                Mis quince años marcan el comienzo de una nueva etapa en mi vida...
+                Una etapa maravillosa dónde el amor y la alegría están conmigo...
+            </p>
          
           <p className="font-script text-xl md:text-2xl text-white">
             {basicDemoData.event.date.full}
