@@ -24,6 +24,12 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			'script': ['Great Vibes', 'cursive'],
+  			'cursive': ['Pacifico', 'cursive'],
+  			'elegant': ['Satisfy', 'cursive'],
+  			'playfair': ['Satisfy', 'cursive'], // Compatibilidad hacia atrás
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
