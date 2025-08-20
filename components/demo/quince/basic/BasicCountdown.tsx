@@ -100,7 +100,7 @@ export function BasicCountdown() {
           isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
-        <h2 className="text-white text-3xl md:text-4xl mb-12">Faltan:</h2>
+        <h2 className="font-cursive text-white text-3xl md:text-4xl mb-12">Faltan:</h2>
 
         <div className="flex justify-center gap-4 md:gap-8">
           <div className="bg-white/20 backdrop-blur-sm p-3 md:p-6 rounded-lg w-16 md:w-24 text-center">

@@ -62,14 +62,14 @@ export function BasicEventDetails() {
         <div className="grid md:grid-cols-4 gap-8 mt-12">
           <div className="flex flex-col items-center">
             <Calendar className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-medium mb-2">¿Cuándo?</h3>
+            <h3 className="font-cursive text-xl font-medium mb-2">¿Cuándo?</h3>
             <p className="text-lg">{basicDemoData.event.date.day}</p>
             <p className="text-lg">{basicDemoData.event.date.date}</p>
           </div>
 
           <div className="flex flex-col items-center">
             <Clock className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-medium mb-2">
+            <h3 className="font-cursive text-xl font-medium mb-2">
               {basicDemoData.event.ceremony.type}
             </h3>
             <p className="text-lg">{basicDemoData.event.ceremony.time}</p>
@@ -88,7 +88,7 @@ export function BasicEventDetails() {
 
           <div className="flex flex-col items-center">
             <Clock className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-medium mb-2">
+            <h3 className="font-cursive text-xl font-medium mb-2">
               {basicDemoData.event.party.type}
             </h3>
             <p className="text-lg">{basicDemoData.event.party.time}</p>
@@ -105,7 +105,7 @@ export function BasicEventDetails() {
 
           <div className="flex flex-col items-center">
             <MapPin className="w-12 h-12 text-primary mb-4" />
-            <h3 className="text-xl font-medium mb-2">Código de Vestimenta</h3>
+            <h3 className="font-cursive text-xl font-medium mb-2">Código de Vestimenta</h3>
             <p className="text-lg text-primary font-medium">
               {basicDemoData.event.dressCode}
             </p>

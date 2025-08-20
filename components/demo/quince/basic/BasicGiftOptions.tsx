@@ -57,7 +57,7 @@ export function BasicGiftOptions() {
               className="bg-gray-50 rounded-lg p-6 text-center hover:shadow-md transition-shadow"
             >
               <div className="text-4xl mb-4">{option.icon}</div>
-              <h3 className="text-xl font-medium mb-2 text-black">{option.title}</h3>
+              <h3 className="font-cursive text-xl font-medium mb-2 text-black">{option.title}</h3>
               <p className="text-lg font-medium mb-3 text-slate-700">{option.description}</p>
               <div className="text-sm text-gray-600 whitespace-pre-line">
                 {option.details}
