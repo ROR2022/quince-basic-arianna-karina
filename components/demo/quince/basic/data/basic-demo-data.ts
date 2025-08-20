@@ -13,7 +13,7 @@ export const basicDemoData = {
       mother: "NANCY R. COBA FLORES"
     },
     godparents: {
-      godfather: "",
+      godfather: "FABIO COBA FLORES",
       godmother: "ANEL COBA FLORES"
     },
     date: {

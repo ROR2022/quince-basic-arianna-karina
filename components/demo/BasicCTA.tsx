@@ -21,7 +21,7 @@ const BasicCTA = () => {
             </h3>
             
             {/* Descripción */}
-            <p className="font-playfair text-normal mb-8 text-pink-100 leading-relaxed max-w-2xl mx-auto">
+            <p className=" text-normal mb-8 text-pink-100 leading-relaxed max-w-2xl mx-auto">
               crea tu invitación digital personalizada y sorprende a tus invitados con una experiencia única.
             </p>
             

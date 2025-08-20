@@ -59,11 +59,17 @@ export function PremiumInvitation() {
           </div>
         </div>
 
+        <div className="font-elegant text-2xl md:text-3xl mb-8 leading-relaxed text-gray-800">
+          <p className="font-script text-xl md:text-2xl text-gray-700">
+            Mis Padrinos:
+          </p>
+        </div>
+
  {/* Información de padrinos */}
         <div className="my-12 bg-white rounded-2xl p-8 shadow-lg border border-purple-100">
           <div className="space-y-4">
-            <p className="font-cursive text-black text-2xl font-medium">
-              Mi Madrina:
+            <p className="font-elegant text-primary text-2xl font-medium">
+              {basicDemoData.event.godparents.godfather}
             </p>
             <div className="flex items-center justify-center">
               <div className="w-8 h-px bg-gradient-to-r from-purple-400 to-pink-400"></div>
